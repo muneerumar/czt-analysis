@@ -1,0 +1,23 @@
+symbol,value,unit,interpretation
+T_p,0.18,s,Provenance check: metadata/signature/content-credential validation
+T_c,0.24,s,Context check: calendar/ticketing/ERP/beneficiary-history query
+T_a,0.16,s,Authority check: delegation and approval-registry query
+T_ch,0.10,s,Channel check: managed-channel and device-state conformance
+T_policy,0.08,s,Policy evaluation including mandatory-veto rules
+T_audit,0.05,s,Structured decision and evidence record
+T_human,45,s,Illustrative median time of one independent human confirmation
+M_p,2.0,kB,Provenance evidence on the high-control path
+M_c,5.0,kB,Context evidence on the high-control path
+M_a,1.5,kB,Authority evidence on the high-control path
+M_aa,4.0,kB,Approval and audit record on the high-control path
+M_p_med,1.0,kB,Provenance evidence on the medium-control path
+M_c_med,3.0,kB,Context evidence on the medium-control path
+M_a_med,1.0,kB,Authority evidence on the medium-control path
+M_aa_med,2.0,kB,Approval and audit record on the medium-control path
+M_aa_low,1.0,kB,Audit record on the low-control path
+msg_low,1,messages,Low path: policy decision and audit write
+msg_med,3,messages,Medium path: evidence request/response and one confirmation
+msg_high,6,messages,High path: full evidence collection and two confirmations
+k_human_low,0,approvals,Low path human operations
+k_human_med,1,approvals,Medium path human operations (callback or step-up)
+k_human_high,2,approvals,High path human operations (independent callback then second approver)

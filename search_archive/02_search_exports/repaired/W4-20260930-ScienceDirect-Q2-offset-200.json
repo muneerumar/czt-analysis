@@ -1,0 +1,243 @@
+{
+  "query_id": "SD-Q2",
+  "offset": 200,
+  "query": "(\"generative AI\" OR LLM OR \"large language model\" OR deepfake OR \"synthetic media\") AND (phishing OR impersonation OR deception OR provenance)",
+  "capture_scope": "rendered result cards at offset 200 with show=100; source reported 211 exact hits",
+  "records": [
+    {
+      "abstract": "",
+      "authors": "Kiran Chandrappa; Krupa K. Shankar; Abstract; Export",
+      "date_line": "",
+      "keywords": "",
+      "publication_type": "Book chapter",
+      "rank": 201,
+      "raw_lines": [
+        "201",
+        "Book chapter",
+        "Chapter 13: Combating deep fakes by the power of artificial intelligence and block chain in healthcare applications",
+        "Unleashing the Potentials of Blockchain Technology for Healthcare Industries2023",
+        "Kiran ChandrappaKrupa K. Shankar",
+        "Abstract",
+        "Export"
+      ],
+      "title": "Chapter 13: Combating deep fakes by the power of artificial intelligence and block chain in healthcare applications",
+      "url": "https://www.sciencedirect.com/science/article/pii/B9780323994811000122",
+      "venue": "Unleashing the Potentials of Blockchain Technology for Healthcare Industries",
+      "year": ""
+    },
+    {
+      "abstract": "",
+      "authors": "Cemil Koyunoğlu; View PDF; Abstract; Export",
+      "date_line": "Sustainable Technology and EntrepreneurshipJanuary–April 2025",
+      "keywords": "",
+      "publication_type": "",
+      "rank": 202,
+      "raw_lines": [
+        "202",
+        "ErratumOpen access",
+        "RETRACTED: The economic case for blend fuels: A cost-benefit analysis in the European context",
+        "Sustainable Technology and EntrepreneurshipJanuary–April 2025",
+        "Cemil Koyunoğlu",
+        "View PDF",
+        "Abstract",
+        "Export"
+      ],
+      "title": "RETRACTED: The economic case for blend fuels: A cost-benefit analysis in the European context",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2773032824000257",
+      "venue": "Sustainable Technology and Entrepreneurship",
+      "year": "2025"
+    },
+    {
+      "abstract": "",
+      "authors": "Rashi Saxena; E. Gayathri; Abstract; Export",
+      "date_line": "",
+      "keywords": "",
+      "publication_type": "Research article",
+      "rank": 203,
+      "raw_lines": [
+        "203",
+        "Research article",
+        "Cyber threat intelligence challenges: Leveraging blockchain intelligence with possible solution",
+        "Materials Today: Proceedings2022",
+        "Rashi SaxenaE. Gayathri",
+        "Abstract",
+        "Export"
+      ],
+      "title": "Cyber threat intelligence challenges: Leveraging blockchain intelligence with possible solution",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214785321045752",
+      "venue": "Materials Today: Proceedings",
+      "year": ""
+    },
+    {
+      "abstract": "",
+      "authors": "Chengfei Wang; Wenting (Kayla) Jiang; Han Li; Abstract; Export",
+      "date_line": "Decision Support SystemsNovember 2026",
+      "keywords": "",
+      "publication_type": "Research article",
+      "rank": 204,
+      "raw_lines": [
+        "204",
+        "Research article",
+        "Identifying suspicious online reviews of telemedicine applications based on homophily principle and social presence theory",
+        "Decision Support SystemsNovember 2026",
+        "Chengfei WangWenting (Kayla) JiangHan Li",
+        "Abstract",
+        "Export"
+      ],
+      "title": "Identifying suspicious online reviews of telemedicine applications based on homophily principle and social presence theory",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167923626001405",
+      "venue": "Decision Support Systems",
+      "year": "2026"
+    },
+    {
+      "abstract": "",
+      "authors": "Stephen J. Lind; Abstract; Export",
+      "date_line": "Journal of Workplace Learning20 September 2024",
+      "keywords": "",
+      "publication_type": "Research article",
+      "rank": 205,
+      "raw_lines": [
+        "205",
+        "Research article",
+        "Can AI-powered avatars replace human trainers? An empirical test of synthetic humanlike spokesperson applications",
+        "Journal of Workplace Learning20 September 2024",
+        "Stephen J. Lind",
+        "Abstract",
+        "Export"
+      ],
+      "title": "Can AI-powered avatars replace human trainers? An empirical test of synthetic humanlike spokesperson applications",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1366562624000445",
+      "venue": "Journal of Workplace Learning",
+      "year": "2024"
+    },
+    {
+      "abstract": "",
+      "authors": "Hossein Abedsoltan; Amirhesam Abedsoltan; Zeinab Zoghi; View PDF; Abstract; Export",
+      "date_line": "Process Safety and Environmental ProtectionMay 2024",
+      "keywords": "",
+      "publication_type": "",
+      "rank": 206,
+      "raw_lines": [
+        "206",
+        "Open access",
+        "RETRACTED: Future of process safety: Insights, approaches, and potential developments",
+        "Process Safety and Environmental ProtectionMay 2024",
+        "Hossein AbedsoltanAmirhesam AbedsoltanZeinab Zoghi",
+        "View PDF",
+        "Abstract",
+        "Export"
+      ],
+      "title": "RETRACTED: Future of process safety: Insights, approaches, and potential developments",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957582024002532",
+      "venue": "Process Safety and Environmental Protection",
+      "year": "2024"
+    },
+    {
+      "abstract": "",
+      "authors": "A. Mendes-Ferreira; A. Mendes-Faia; C. Leão; View PDF; Abstract; Export",
+      "date_line": "Journal of Food Protection1 June 2002",
+      "keywords": "",
+      "publication_type": "Research articleOpen archive",
+      "rank": 207,
+      "raw_lines": [
+        "207",
+        "Research articleOpen archive",
+        "Survey of Hydrogen Sulphide Production by Wine Yeasts",
+        "Journal of Food Protection1 June 2002",
+        "A. Mendes-FerreiraA. Mendes-FaiaC. Leão",
+        "View PDF",
+        "Abstract",
+        "Export"
+      ],
+      "title": "Survey of Hydrogen Sulphide Production by Wine Yeasts",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0362028X22049316",
+      "venue": "Journal of Food Protection",
+      "year": "2002"
+    },
+    {
+      "abstract": "",
+      "authors": "Qasem Abu Al-Haija; Abstract; Export",
+      "date_line": "",
+      "keywords": "",
+      "publication_type": "Book chapter",
+      "rank": 208,
+      "raw_lines": [
+        "208",
+        "Book chapter",
+        "Chapter 5: Coordinated response strategies: Swarm robotics for crisis management",
+        "Swarm Robotics Solutions for National Security and Marine Forensics2026",
+        "Qasem Abu Al-Haija",
+        "Abstract",
+        "Export"
+      ],
+      "title": "Chapter 5: Coordinated response strategies: Swarm robotics for crisis management",
+      "url": "https://www.sciencedirect.com/science/article/pii/B9780443336218000098",
+      "venue": "Swarm Robotics Solutions for National Security and Marine Forensics",
+      "year": ""
+    },
+    {
+      "abstract": "",
+      "authors": "Bashir Ahmad; Samina Ashiq; Mubbashir Hussain; Abstract; Export",
+      "date_line": "Fungal BiologySeptember–October 2014",
+      "keywords": "",
+      "publication_type": "Research article",
+      "rank": 209,
+      "raw_lines": [
+        "209",
+        "Research article",
+        "Evaluation of mycotoxins, mycobiota, and toxigenic fungi in selected medicinal plants of Khyber Pakhtunkhwa, Pakistan",
+        "Fungal BiologySeptember–October 2014",
+        "Bashir AhmadSamina AshiqMubbashir Hussain",
+        "Abstract",
+        "Export"
+      ],
+      "title": "Evaluation of mycotoxins, mycobiota, and toxigenic fungi in selected medicinal plants of Khyber Pakhtunkhwa, Pakistan",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1878614614000981",
+      "venue": "Fungal Biology",
+      "year": "2014"
+    },
+    {
+      "abstract": "",
+      "authors": "Cemil Koyunŏglu; View PDF; Abstract; Export",
+      "date_line": "Sustainable Technology and EntrepreneurshipMay–August 2024",
+      "keywords": "",
+      "publication_type": "",
+      "rank": 210,
+      "raw_lines": [
+        "210",
+        "Open access",
+        "RETRACTED: The economic case for blend fuels: A cost-benefit analysis in the European context",
+        "Sustainable Technology and EntrepreneurshipMay–August 2024",
+        "Cemil Koyunŏglu",
+        "View PDF",
+        "Abstract",
+        "Export"
+      ],
+      "title": "RETRACTED: The economic case for blend fuels: A cost-benefit analysis in the European context",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2773032823000238",
+      "venue": "Sustainable Technology and Entrepreneurship",
+      "year": "2024"
+    },
+    {
+      "abstract": "",
+      "authors": "Paul Mandaron; Abstract; Export",
+      "date_line": "Developmental BiologyAugust 1971",
+      "keywords": "",
+      "publication_type": "Research article",
+      "rank": 211,
+      "raw_lines": [
+        "211",
+        "Research article",
+        "Sur le mécanisme de l'évagination des disques imaginaux chez la Drosophile",
+        "Developmental BiologyAugust 1971",
+        "Paul Mandaron",
+        "Abstract",
+        "Export"
+      ],
+      "title": "Sur le mécanisme de l'évagination des disques imaginaux chez la Drosophile",
+      "url": "https://www.sciencedirect.com/science/article/pii/0012160671900078",
+      "venue": "Developmental Biology",
+      "year": "1971"
+    }
+  ]
+}

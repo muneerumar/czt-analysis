@@ -1,0 +1,19 @@
+symbol,value,role,basis
+w_p,0.25,Weight of provenance assurance in A(r),Illustrative: equal weights because no calibration evidence favors one evidence source; tested by Dirichlet perturbation
+w_c,0.25,Weight of contextual legitimacy in A(r),Illustrative: equal weights; tested by perturbation
+w_a,0.25,Weight of authority assurance in A(r),Illustrative: equal weights; tested by perturbation
+w_h,0.25,Weight of channel integrity in A(r),Illustrative: equal weights; tested by perturbation
+v_q,0.30,Weight of consequence severity in R(r),Illustrative: largest weight because expected harm scales with consequence (c_h in Eq. 7)
+v_u,0.15,Weight of urgency in R(r),Literature-informed: urgency and scarcity are established compliance cues (Cialdini; Vishwanath et al.)
+v_s,0.15,Weight of secrecy pressure in R(r),Literature-informed: secrecy isolates the target from verification (IC3 BEC guidance; Ashraf)
+v_n,0.20,Weight of novelty/workflow anomaly in R(r),Literature-informed: new payees and changed account details are the core BEC indicator (IC3)
+v_i,0.20,Weight of irreversibility in R(r),Illustrative: irreversibility removes the option of recovery after a wrong decision
+tau_A,0.70,Assurance threshold for routine processing,Illustrative; swept 0.50-0.90 in the sensitivity analysis
+tau_R,0.50,Pressure threshold for routine processing,Illustrative; swept 0.30-0.70 in the sensitivity analysis
+tau_A_low,0.40,Assurance level below which dual approval or hold applies,Illustrative
+tau_R_high,0.70,Pressure level at or above which dual approval or hold applies,Illustrative
+a_min,0.50,Authority below which a high-consequence request is held for at least dual approval (authority floor in Eq. 4),Illustrative: same 0.5 boundary as the veto conditions; closes the case in which strong provenance/context/channel compensate for missing authority
+q_high,0.60,Consequence at or above which a request counts as high-consequence for the authority floor (also any protected-action flag),Illustrative: rubric level for material financial/operational impact
+c_h_over_c_d,20,Ratio of harm from a deceptive request routed as routine to the cost of escalating a legitimate request (Eq. 7),Illustrative; used only for the sensitivity figure
+perturbation_draws,2000,Number of Dirichlet weight draws,Analysis setting
+dirichlet_concentration,40,Concentration of Dirichlet draws around the base weights,Analysis setting (roughly +/-0.07 around a 0.25 weight)

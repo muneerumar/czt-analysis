@@ -1,0 +1,16 @@
+,prcc_cost_advantage_ratio100
+attack_share,0.8657464654439923
+callback_catch,-0.7989294179859311
+check_error,-0.49081396995408927
+share_high_consequence,0.33612181800993046
+dual_catch,0.3230712389615559
+provenance_coverage,0.10744126751837071
+post_hoc_detection,-0.07488568730485394
+human_detect_media,-0.0722601910645404
+challenge_uplift,-0.05681148011594964
+act_on_doubt,-0.056522158914557884
+training_effect,-0.025474665328730432
+callback_catch_insider,-0.005617662996635008
+poison_success,0.005501418049862746
+false_refusal_legit,0.004164647694239127
+human_detect_text,-0.003116474508655265

@@ -1,0 +1,61 @@
+scenario_id,sector,originator,request_type,ground_truth,assurance_A,pressure_R,mandatory_veto_M,veto_rule,authority_floor,decision,weight_stability
+F01,Finance,H2H,Invoice payment,legitimate,0.875,0.19,0,,0,Routine,1.0
+F02,Finance,H2H,Expense approval,legitimate,1.0,0.03,0,,0,Routine,1.0
+F03,Finance,H2H,Payroll run,legitimate,1.0,0.515,0,,0,Step-up / callback,0.593
+F04,Finance,H2H,Urgent transfer,deceptive,0.275,1.0,1,V3,1,Reject / block,1.0
+F05,Finance,H2H,Bank-detail change,deceptive,0.4375,0.715,0,,0,Dual approval / hold,0.691
+F06,Finance,H2H,Bank-detail change,deceptive,0.75,0.715,0,,0,Dual approval / hold,0.649
+F07,Finance,A2H,Payment hold,legitimate,0.9375,0.19,0,,0,Routine,1.0
+F08,Finance,H2A,Data export,deceptive,0.25,0.63,0,,1,Dual approval / hold,1.0
+F09,Finance,H2H,Acquisition deposit,legitimate,0.875,0.825,0,,0,Dual approval / hold,0.999
+F10,Finance,A2A,Release held payments,deceptive,0.4375,0.615,0,,1,Dual approval / hold,1.0
+H01,Healthcare,H2H,Routine refill,legitimate,1.0,0.19,0,,0,Routine,1.0
+H02,Healthcare,H2H,Referral information,legitimate,0.8125,0.29,0,,0,Routine,1.0
+H03,Healthcare,H2H,Dosage change,deceptive,0.2125,0.925,1,V2,1,Reject / block,1.0
+H04,Healthcare,H2H,Bulk record release,deceptive,0.3125,0.79,0,,1,Dual approval / hold,1.0
+H05,Healthcare,H2H,Emergency record access,legitimate,0.875,0.53,0,,0,Step-up / callback,0.768
+H06,Healthcare,A2H,Password reset link,deceptive,0.375,0.69,1,V1,1,Reject / block,1.0
+H07,Healthcare,A2H,Interaction override,legitimate,0.9375,0.455,0,,0,Routine,0.95
+H08,Healthcare,H2H,Privileged account creation,deceptive,0.25,0.615,1,V2,1,Reject / block,1.0
+H09,Healthcare,A2H,Result notification,legitimate,1.0,0.09,0,,0,Routine,1.0
+H10,Healthcare,H2A,External record transfer,deceptive,0.25,0.715,0,,1,Dual approval / hold,1.0
+G01,Government,H2H,Purchase order,legitimate,1.0,0.19,0,,0,Routine,1.0
+G02,Government,H2H,Press release sign-off,legitimate,0.9375,0.265,0,,0,Routine,1.0
+G03,Government,H2H,Sensitive briefing share,deceptive,0.2125,0.94,1,V4,1,Reject / block,1.0
+G04,Government,H2H,Credential re-validation,deceptive,0.3125,0.63,1,V1,1,Reject / block,1.0
+G05,Government,H2H,Emergency directive,legitimate,0.9375,0.59,0,,0,Step-up / callback,0.958
+G06,Government,H2H,Contract amendment,deceptive,0.75,0.53,0,,0,Step-up / callback,1.0
+G07,Government,A2H,Archive approval,legitimate,0.9375,0.13,0,,0,Routine,1.0
+G08,Government,H2H,Bulk data export,deceptive,0.6875,0.79,0,,0,Dual approval / hold,0.998
+G09,Government,H2H,Inter-agency data sharing,legitimate,0.875,0.38,0,,0,Routine,1.0
+G10,Government,A2A,Payee change,deceptive,0.3125,0.555,1,V3,1,Reject / block,1.0
+E01,Education,H2H,Transcript request,legitimate,1.0,0.03,0,,0,Routine,1.0
+E02,Education,H2H,Travel reimbursement,legitimate,1.0,0.19,0,,0,Routine,1.0
+E03,Education,H2H,Gift-card purchase,deceptive,0.3125,0.79,1,V3,1,Reject / block,1.0
+E04,Education,H2H,MFA code request,deceptive,0.3125,0.63,1,V1,1,Reject / block,1.0
+E05,Education,H2H,Decision change,legitimate,0.875,0.355,0,,0,Routine,1.0
+E06,Education,H2H,Student-record release,deceptive,0.25,0.73,1,V4,1,Reject / block,1.0
+E07,Education,A2H,Grade upload confirmation,legitimate,0.9375,0.265,0,,0,Routine,1.0
+E08,Education,H2H,Bank-detail change,deceptive,0.5,0.655,0,,0,Step-up / callback,0.786
+E09,Education,H2H,Agreement signature,legitimate,0.9375,0.29,0,,0,Routine,1.0
+E10,Education,H2A,Grade manipulation,deceptive,0.375,0.465,0,,0,Dual approval / hold,0.716
+C01,Cloud/IT,H2H,Read access,legitimate,1.0,0.09,0,,0,Routine,1.0
+C02,Cloud/IT,H2H,Production patch,legitimate,1.0,0.355,0,,0,Routine,1.0
+C03,Cloud/IT,H2H,MFA reset,deceptive,0.2125,0.765,1,V2,1,Reject / block,1.0
+C04,Cloud/IT,H2H,SSH key addition,deceptive,0.5625,0.825,0,,0,Dual approval / hold,0.999
+C05,Cloud/IT,H2H,Emergency elevation,legitimate,0.875,0.59,0,,0,Step-up / callback,0.958
+C06,Cloud/IT,H2A,Secret exfiltration,deceptive,0.25,0.85,1,V1,1,Reject / block,1.0
+C07,Cloud/IT,A2H,Storage deletion,legitimate,0.875,0.48,0,,0,Routine,0.633
+C08,Cloud/IT,A2A,Disable logging,deceptive,0.4375,0.69,1,V2,1,Reject / block,1.0
+C09,Cloud/IT,H2H,Vendor remote session,legitimate,0.8125,0.455,0,,0,Routine,0.95
+C10,Cloud/IT,H2H,Database export to personal cloud,deceptive,0.5,0.85,1,V4,0,Reject / block,1.0
+O01,Energy/OT,H2H,Feeder isolation permit,legitimate,1.0,0.28,0,,0,Routine,1.0
+O02,Energy/OT,H2H,Load-shedding step,legitimate,0.875,0.65,0,,0,Step-up / callback,0.813
+O03,Energy/OT,H2H,Safety interlock bypass,deceptive,0.2125,0.925,1,V2,1,Reject / block,1.0
+O04,Energy/OT,A2H,Breaker operation,deceptive,0.5625,0.75,0,,0,Dual approval / hold,0.806
+O05,Energy/OT,H2A,Firmware update,deceptive,0.25,0.775,1,V2,1,Reject / block,1.0
+O06,Energy/OT,A2A,Day-ahead forecast,legitimate,0.9375,0.355,0,,0,Routine,1.0
+O07,Energy/OT,H2H,Remote-access credentials,deceptive,0.5625,0.75,1,V1,0,Reject / block,1.0
+O08,Energy/OT,H2H,Incident data request,legitimate,0.875,0.365,0,,0,Routine,1.0
+O09,Energy/OT,A2A,Inverter setpoint change,deceptive,0.5,0.75,1,V2,1,Reject / block,1.0
+O10,Energy/OT,H2A,Switching-sequence draft,legitimate,1.0,0.09,0,,0,Routine,1.0

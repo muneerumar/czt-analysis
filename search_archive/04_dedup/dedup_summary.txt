@@ -1,0 +1,44 @@
+C3 DEDUPLICATION SUMMARY
+
+Input inventory
+search_log.csv rows: 93
+raw files inventoried: 83
+raw file extensions: PNG=83
+unique file references in search_log.csv: 77
+referenced raw files resolved case-insensitively: 77
+missing file references: 0
+unreferenced raw files: 6
+
+Record counts
+raw exported record count: 0
+confirmed duplicate removals: 0
+pending duplicate candidate count: 0
+current unique record count: 0
+reconciliation: 0 = 0 + 0
+reconciliation status: PASS
+
+Parser and data-quality findings
+Supported machine-readable input files found: 0
+No RIS, BibTeX/BibLaTeX, CSV/TSV, EndNote XML, NBIB, JSON, XLSX, or XLS export was present.
+All 93 search-log rows report records_exported=0.
+No parser errors occurred because no machine-readable records were available.
+The 83 raw files are PNG screenshots. Six screenshots are present in raw but are not referenced by search_log.csv:
+  - 02_search_exports/raw/googlescholar/w2-20260930-googlescholar-q1-results.png
+  - 02_search_exports/raw/institutionalsites/w2-20260930-mitre-access.png
+  - 02_search_exports/raw/institutionalsites/w2-20260930-nsa-access.png
+  - 02_search_exports/raw/institutionalsites/w2-20260930-owasp-access.png
+  - 02_search_exports/raw/scopus/w2-20260930-scopus-access_blocked.png
+  - 02_search_exports/raw/webofscience/w2-20260930-wos-access_blocked.png
+
+Scientific screening
+No scientific inclusion/exclusion decisions were made in C3.
+screening_log.csv contains the expanded metadata and blank scientific-decision fields with zero record rows.
+
+Created outputs
+04_dedup/master_records_pre_dedup.csv
+04_dedup/duplicate_groups_confirmed.csv
+04_dedup/duplicate_candidates_for_review.csv
+04_dedup/master_unique_records.csv
+04_dedup/dedup_summary.txt
+04_dedup/DEDUPE_METHOD.md
+05_screening/screening_log.csv

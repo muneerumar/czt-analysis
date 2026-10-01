@@ -1,0 +1,22 @@
+CURRENT CODED-CORPUS BASELINE
+Paper: Cognitive Zero Trust: A Human-Centered Framework for Verifying Communication Requests in GenAI-Enabled Social Engineering
+Baseline status: pre-prospective revision-stage search
+Protocol freeze date: 2026-09-30
+
+The current coded corpus contains 67 unique sources. This is a baseline extracted from the current manuscript, data/derived_numbers.txt, data/literature_coding_matrix.csv, and data/coding_codebook.md. It is not a prospective search result and must not be used to reconstruct historical retrieved, deduplicated, screened, excluded, or retained counts.
+
+Source-type breakdown:
+- Journal article: 23
+- Conference paper: 13
+- Preprint: 8
+- Standard/report: 20
+- Book/chapter: 3
+
+Total: 67
+Coding-matrix data rows: 67
+Coding-matrix unique keys: 67 (ref1-ref67)
+Codebook statement: the search was last updated 11 July 2026.
+Current manuscript statement: the bounded final corpus contains 67 unique sources.
+The manuscript also notes that one source previously counted as a preprint is now counted under its peer-reviewed venue (ref50); the baseline above reflects the current matrix classification.
+
+The prospective revision-stage search may retain additional eligible sources or change source-version classification. Any such change must be recorded in the Phase W2 audit trail and reflected in the manuscript and affected outputs.

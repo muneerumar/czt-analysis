@@ -1,0 +1,7 @@
+{
+  "query_id": "SD-Q3",
+  "offset": 400,
+  "query": "(\"human-centered cybersecurity\" OR \"human-centred cybersecurity\" OR \"usable security\" OR \"organizational trust\" OR \"organisational trust\") AND (verification OR escalation OR authority OR friction)",
+  "capture_scope": "rendered result cards at offset 400 with show=100; source reported 10746 exact hits; interface exposes offsets below 1000",
+  "records": []
+}

@@ -1,0 +1,162 @@
+{
+  "_note": "Every parameter has a base value, a range used in the global sensitivity analysis, and its basis. 'assumption' means no published estimate was found; such parameters are swept over wide ranges.",
+  "n_periods": {
+    "value": 20,
+    "range": null,
+    "basis": "analysis setting"
+  },
+  "requests_per_period": {
+    "value": 1000,
+    "range": null,
+    "basis": "analysis setting"
+  },
+  "replications": {
+    "value": 200,
+    "range": null,
+    "basis": "analysis setting"
+  },
+  "share_high_consequence": {
+    "value": 0.15,
+    "range": [
+      0.05,
+      0.3
+    ],
+    "basis": "assumption"
+  },
+  "attack_share": {
+    "value": 0.01,
+    "range": [
+      0.002,
+      0.03
+    ],
+    "basis": "assumption; deceptive requests as a share of all action requests"
+  },
+  "attack_mix": {
+    "value": {
+      "A1": 0.35,
+      "A2": 0.25,
+      "A3": 0.1,
+      "A4": 0.1,
+      "A5": 0.2
+    },
+    "range": null,
+    "basis": "assumption informed by the relative prominence of spoofing, account compromise, insiders, deepfake meetings and agent manipulation in the incident sources (Section 6.5)"
+  },
+  "human_detect_text": {
+    "value": 0.3,
+    "range": [
+      0.1,
+      0.6
+    ],
+    "basis": "assumption informed by phishing-susceptibility literature (Section 2.3); probability an employee doubts a deceptive text request"
+  },
+  "human_detect_media": {
+    "value": 0.15,
+    "range": [
+      0.05,
+      0.4
+    ],
+    "basis": "human deepfake detection is near chance (about 55% accuracy, cited in Ashraf 2026); probability of doubting a synthetic voice/video request"
+  },
+  "act_on_doubt": {
+    "value": 0.5,
+    "range": [
+      0.2,
+      0.9
+    ],
+    "basis": "assumption; share of doubts acted on (pause or refusal) under ordinary hierarchy pressure"
+  },
+  "challenge_uplift": {
+    "value": 0.2,
+    "range": [
+      0.0,
+      0.4
+    ],
+    "basis": "assumption; increase in act_on_doubt from protected human challenge (0 = no effect)"
+  },
+  "training_effect": {
+    "value": 0.2,
+    "range": [
+      0.0,
+      0.4
+    ],
+    "basis": "assumption; relative increase in doubt after awareness training"
+  },
+  "false_refusal_legit": {
+    "value": 0.01,
+    "range": [
+      0.0,
+      0.03
+    ],
+    "basis": "assumption; legitimate requests refused by the recipient"
+  },
+  "check_error": {
+    "value": 0.1,
+    "range": [
+      0.0,
+      0.3
+    ],
+    "basis": "assumption; probability that an automated check returns a random level instead of the true level"
+  },
+  "provenance_coverage": {
+    "value": 0.6,
+    "range": [
+      0.2,
+      1.0
+    ],
+    "basis": "assumption; share of requests arriving on channels that carry verifiable provenance (content credentials are not yet universal)"
+  },
+  "poison_success": {
+    "value": 0.3,
+    "range": [
+      0.05,
+      0.7
+    ],
+    "basis": "assumption; probability that an A2/A3 attacker obtains a supporting ticket or calendar record created by an independent party, which defeats the independence rule of Section 4.2"
+  },
+  "callback_catch": {
+    "value": 0.8,
+    "range": [
+      0.5,
+      0.95
+    ],
+    "basis": "assumption; probability that an independent callback exposes a deceptive request (FBI IC3 recommends secondary-channel verification)"
+  },
+  "callback_catch_insider": {
+    "value": 0.2,
+    "range": [
+      0.05,
+      0.5
+    ],
+    "basis": "assumption; a callback reaches the insider themselves, so it rarely exposes insider requests"
+  },
+  "dual_catch": {
+    "value": 0.5,
+    "range": [
+      0.2,
+      0.8
+    ],
+    "basis": "assumption; additional probability that a second approver stops a request the callback missed"
+  },
+  "post_hoc_detection": {
+    "value": 0.5,
+    "range": [
+      0.2,
+      0.9
+    ],
+    "basis": "assumption; share of successful deceptions discovered later and fed back (Eq. 6)"
+  },
+  "eta": {
+    "value": 0.05,
+    "range": null,
+    "basis": "damping factor of Eq. (6); illustrative"
+  },
+  "c_h_over_c_d": {
+    "value": 20,
+    "range": [
+      5,
+      100
+    ],
+    "basis": "illustrative cost ratio, as in Eq. (7)"
+  }
+}

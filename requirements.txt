@@ -1,0 +1,6 @@
+# Tested with Python 3.10-3.12. Results are identical across these versions (decision scores are rounded
+# before comparison; see generate_figures.py).
+numpy>=1.26,<3
+pandas>=2.1,<4
+matplotlib>=3.8,<4
+pytest>=8

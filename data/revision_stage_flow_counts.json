@@ -1,0 +1,69 @@
+{
+  "artifact": "Revision-stage reproducibility search flow",
+  "search_date_local": "2026-09-30",
+  "scope": "prospective revision-stage rerun and repaired export capture; not reconstructed July historical search",
+  "repaired_export_flow": {
+    "retrieved_exported": {
+      "total": 740,
+      "by_database": {
+        "ScienceDirect": 490,
+        "IEEE Xplore": 250
+      }
+    },
+    "duplicates_removed": 7,
+    "unique_screened": 733,
+    "title_abstract_exclusions": {
+      "total": 157,
+      "E1": 0,
+      "E2": 1,
+      "E3": 3,
+      "E4": 153
+    },
+    "full_texts_sought": 576,
+    "full_texts_unavailable": 576,
+    "full_texts_assessed": 0,
+    "full_text_exclusions": {
+      "E1": 0,
+      "E2": 0,
+      "E3": 0,
+      "E4": 0
+    },
+    "final_eligible_repaired_records": 0,
+    "arithmetic_checks": {
+      "unique_screened": "740 - 7 = 733",
+      "title_abstract_exclusions": "0 + 1 + 3 + 153 = 157",
+      "full_texts_sought": "733 - 157 = 576",
+      "full_texts_assessed": "576 - 576 = 0",
+      "final_eligible_repaired_records": "0 - 0 = 0"
+    }
+  },
+  "corpus_reconciliation_outside_repaired_export_denominator": {
+    "separately_logged_reassessment_rows": 6,
+    "full_text_exclusions": {
+      "E2": 1,
+      "E4": 2
+    },
+    "full_text_unavailable": {
+      "FT-NA": 1,
+      "record_ids": [
+        "ref94"
+      ]
+    },
+    "newly_eligible_sources": [
+      "ref95"
+    ],
+    "final_coded_corpus": {
+      "count": 66,
+      "arithmetic": "67 baseline - 2 E4 removals + 1 new eligible source (ref95) = 66; ref94 was a candidate outside the 67 baseline, was not added (FT-NA), and is therefore not subtracted"
+    },
+    "source_type_counts": {
+      "Standard/report": 20,
+      "Journal article": 26,
+      "Conference paper": 15,
+      "Book/chapter": 3,
+      "Preprint": 2
+    },
+    "version_replacements_one_for_one": 5
+  },
+  "interpretation": "The repaired export flow yields zero eligible repaired records because all plausible records lacked accessible full text. The final coded corpus contains the separately resolved ref95 source; ref94 remains a revision-stage update but is not retained because complete authoritative full text was unavailable. The flow is prospective and is not a reconstruction of the historical July search."
+}

@@ -1,0 +1,1 @@
+These zero-record JSON wrappers preserve failed W4 IEEE page-retrieval attempts. The public interface returned no result cards before the browser operation timed out. They are excluded from the repaired record collection and do not contribute to flow counts.

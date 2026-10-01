@@ -1,0 +1,36 @@
+variable,level,anchor
+p,1.0,"Origin cryptographically verified (e.g., DMARC pass + signed content/managed identity + known device)."
+p,0.75,Authenticated internal or known account on a managed channel; content not independently verified.
+p,0.5,"Authenticated account but anomalous (new device/location) or origin only partly verifiable (e.g., agent output built on unverified inputs)."
+p,0.25,"External, look-alike, or unauthenticated origin."
+p,0.1,Synthetic or unverifiable real-time media (voice/video) with no binding to a verified identity.
+c,1.0,"Matches an open ticket, approved workflow, and normal timing."
+c,0.75,"Matches the workflow with a minor deviation (timing, amount) that has a documented reason."
+c,0.5,Plausible but no system-of-record entry.
+c,0.25,"Conflicts with the system of record (no ticket, out-of-hours, unusual volume, or a change not recorded by an independent party)."
+a,1.0,Delegation registry confirms authority for this action and amount.
+a,0.75,Within the requester role; not separately confirmed.
+a,0.5,"Authority plausible but unverified, or requester is an agent acting within a scoped role."
+a,0.25,Claimed authority exceeds normal delegation.
+a,0.0,"No legitimate authority (e.g., instruction injected into data or content)."
+h,1.0,Approved managed channel for this action type.
+h,0.75,"Managed channel, unusual for this action."
+h,0.5,Channel switch or externally initiated session on a managed platform.
+h,0.25,"Personal, external, or unmanaged channel."
+q,0.1,Negligible consequence if wrong.
+q,0.3,"Low, easily corrected."
+q,0.6,"Moderate financial, privacy, or service impact."
+q,0.8,High impact.
+q,1.0,"Critical: large loss, safety, or systemic impact."
+u,0.0,No time pressure.
+u,0.5,Deadline stated.
+u,1.0,Immediate action demanded.
+s,0.0,No secrecy.
+s,0.5,Discretion requested.
+s,1.0,Explicit instruction not to tell or verify.
+n,0.0,Routine repeat.
+n,0.5,Somewhat new.
+n,1.0,First-time action or new counterparty.
+i,0.0,Fully reversible.
+i,0.5,Partly reversible.
+i,1.0,Irreversible.

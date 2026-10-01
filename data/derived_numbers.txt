@@ -1,0 +1,62 @@
+corpus_size: 66
+type[Journal article]: 26
+type[Standard/report]: 20
+type[Conference paper]: 15
+type[Book/chapter]: 3
+type[Preprint]: 2
+stream[Human factors & social engineering]: 26
+stream[AI/LLM security & governance]: 20
+stream[Zero trust architecture]: 9
+stream[GenAI & synthetic deception]: 9
+stream[Adaptive/cognitive zero trust]: 2
+mean[provenance]: 0.38
+central2[provenance]: 6
+mean[context]: 0.91
+central2[context]: 10
+mean[authority]: 0.56
+central2[authority]: 4
+mean[channel]: 0.42
+central2[channel]: 3
+mean[friction]: 0.29
+central2[friction]: 2
+mean[challenge]: 0.21
+central2[challenge]: 2
+mean[feedback]: 0.59
+central2[feedback]: 9
+distinct_coverage_profiles: 41
+modality[Email/chat/web]: 25
+modality[Not modality-specific]: 17
+modality[Access/workflow]: 15
+modality[LLM/AI application]: 13
+modality[Voice/video]: 8
+scenarios: 60
+legitimate: 30
+deceptive: 30
+class[Routine] legit/deceptive: 24/0
+class[Step-up / callback] legit/deceptive: 5/2
+class[Dual approval / hold] legit/deceptive: 1/10
+class[Reject / block] legit/deceptive: 0/18
+misses (deceptive routed Routine): 0
+legitimate-request escalations (legitimate not Routine): 6
+authority floor applied (not vetoed): 4
+vetoes by rule: {'V2': 7, 'V1': 5, 'V3': 3, 'V4': 3}
+originator[H2H] n / non-routine: 41 / 25
+originator[A2H] n / non-routine: 8 / 2
+originator[H2A] n / non-routine: 6 / 5
+originator[A2A] n / non-routine: 5 / 4
+base misses/legitimate escalations: 0/6
+grid misses range: 0-2
+grid legitimate-escalation range: 1-16
+min-cost thresholds (first found): tau_A=0.775, tau_R=0.675, cost=1, base cost=6
+weight stability: share of scenarios with stability>=0.90: 0.850
+weight stability: mean: 0.954
+weight stability: minimum (scenario): 0.593 (F03)
+machine sequential (4 checks) s: 0.81
+machine parallel (4 checks) s: 0.37
+parallel gain: 2.19
+baseline policy+audit s: 0.13
+time saved over 1000 requests s: 440.0
+single-worker capacity req/s baseline/seq/par: 7.69/1.23/2.70
+path[Low] payload kB / e2e seq / e2e par: 1.0 / 0.81 / 0.37
+path[Medium] payload kB / e2e seq / e2e par: 7.0 / 45.81 / 45.37
+path[High] payload kB / e2e seq / e2e par: 12.5 / 90.81 / 90.37

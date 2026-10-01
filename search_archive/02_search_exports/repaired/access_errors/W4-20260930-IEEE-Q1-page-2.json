@@ -1,0 +1,9 @@
+{
+  "source_database": "IEEE Xplore",
+  "query_id": "IEEE-Q1",
+  "query": "(\"zero trust\" OR \"zero trust architecture\") AND (phishing OR \"social engineering\" OR communication OR human)",
+  "page": 2,
+  "rows_per_page": 100,
+  "capture_scope": "visible IEEE Xplore result cards",
+  "records": []
+}

@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this repository."
+title: "Cognitive Zero Trust: analysis code and data"
+version: 1.0.0
+date-released: 2026-10-01
+license: MIT
+authors:
+  - family-names: Khadim
+    given-names: Muhammad Shahzad
+  - family-names: Umar
+    given-names: Muhammad Muneer
+  - family-names: Perveen
+    given-names: Salma
+  - family-names: Ahmed
+    given-names: Ilyas
+  - family-names: Hussain
+    given-names: Tariq
+  - family-names: Attar
+    given-names: Razaz Waheeb
+  - family-names: Alhazmi
+    given-names: Amal Hassan
+preferred-citation:
+  type: article
+  title: "Cognitive Zero Trust: A Human-Centered Framework for Verifying Communication Requests in GenAI-Enabled Social Engineering"
+  authors:
+    - family-names: Khadim
+      given-names: Muhammad Shahzad
+    - family-names: Umar
+      given-names: Muhammad Muneer
+    - family-names: Perveen
+      given-names: Salma
+    - family-names: Ahmed
+      given-names: Ilyas
+    - family-names: Hussain
+      given-names: Tariq
+    - family-names: Attar
+      given-names: Razaz Waheeb
+    - family-names: Alhazmi
+      given-names: Amal Hassan
+  journal: "Computer Standards & Interfaces"
+  status: submitted

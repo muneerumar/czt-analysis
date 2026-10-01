@@ -1,0 +1,25 @@
+﻿flow_scope,stage,category,count,formula_or_definition
+repaired export flow,retrieved/exported,total,740,490 ScienceDirect + 250 IEEE Xplore repaired records
+repaired export flow,retrieved/exported,ScienceDirect,490,"W4 repair log Q1=79, Q2=211, Q3=200"
+repaired export flow,retrieved/exported,IEEE Xplore,250,"W4 repair log Q1=100, Q2=100, Q3=50"
+repaired export flow,duplicates removed,exact publisher accession duplicates,7,740 - 733 = 7; all seven decisions COMPLETE
+repaired export flow,unique screened,title/abstract screened,733,740 - 7 = 733
+repaired export flow,title/abstract exclusions,total,157,E1=0 + E2=1 + E3=3 + E4=153 = 157
+repaired export flow,title/abstract exclusions,E1,0,promotional material
+repaired export flow,title/abstract exclusions,E2,1,duplicate/version or correction record
+repaired export flow,title/abstract exclusions,E3,3,insufficient detail/retracted record
+repaired export flow,title/abstract exclusions,E4,153,no defensible link to any stated evidence domain
+repaired export flow,full texts sought,total,576,733 - 157 = 576
+repaired export flow,full texts unavailable,total,576,all 576 sought records remained inaccessible
+repaired export flow,full texts assessed,complete text assessed,0,576 - 576 unavailable = 0
+repaired export flow,full-text exclusions,E1,0,No repaired record reached substantive full-text assessment
+repaired export flow,full-text exclusions,E2,0,No repaired record reached substantive full-text assessment
+repaired export flow,full-text exclusions,E3,0,No repaired record reached substantive full-text assessment
+repaired export flow,full-text exclusions,E4,0,No repaired record reached substantive full-text assessment
+repaired export flow,final eligible repaired records,total,0,0 assessed - 0 substantive full-text exclusions = 0
+corpus reconciliation outside repaired export denominator,separately logged W4 reassessment rows,total,6,"ref51, ref52, ref53, ref53-arxiv, ref94, ref95"
+corpus reconciliation outside repaired export denominator,full-text exclusions,E2,1,ref53-arxiv superseded by preferred workshop version
+corpus reconciliation outside repaired export denominator,full-text exclusions,E4,2,ref51 and ref52
+corpus reconciliation outside repaired export denominator,full texts unavailable,FT-NA,1,ref94 was not retained because complete authoritative full text was unavailable; this is administrative and not an E1-E4 substantive exclusion.
+corpus reconciliation outside repaired export denominator,new eligible sources,ref95,1,ref95 retained after the C8 ref94 FT-NA correction; peer-reviewed source with traceable metadata.
+corpus reconciliation outside repaired export denominator,final coded corpus,total,66,67 baseline - 2 E4 removals + 1 newly eligible source (ref95) = 66; ref94 was a candidate outside the 67 baseline and was not added (FT-NA), so it is not subtracted; version replacements are one-for-one.

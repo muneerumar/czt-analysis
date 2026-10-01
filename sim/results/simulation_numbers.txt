@@ -1,0 +1,60 @@
+replications: 200
+requests per replication: 20000
+harm/10k [ZT baseline]: 90.0 (95% CI 89.0-90.9)
+legit escalated % [ZT baseline]: 0.0
+harm/10k [Awareness training]: 84.4 (95% CI 83.5-85.3)
+legit escalated % [Awareness training]: 0.0
+harm/10k [Uniform callback]: 26.2 (95% CI 25.6-26.7)
+legit escalated % [Uniform callback]: 15.0
+harm/10k [CZT (full)]: 13.5 (95% CI 13.1-13.8)
+legit escalated % [CZT (full)]: 11.7
+harm/10k [CZT - provenance]: 13.7 (95% CI 13.4-14.1)
+legit escalated % [CZT - provenance]: 13.3
+harm/10k [CZT - context]: 14.0 (95% CI 13.7-14.4)
+legit escalated % [CZT - context]: 15.8
+harm/10k [CZT - authority]: 16.5 (95% CI 16.1-16.9)
+legit escalated % [CZT - authority]: 16.2
+harm/10k [CZT - channel]: 14.0 (95% CI 13.6-14.4)
+legit escalated % [CZT - channel]: 16.6
+harm/10k [CZT - friction]: 50.1 (95% CI 49.4-50.9)
+legit escalated % [CZT - friction]: 0.4
+harm/10k [CZT - human challenge]: 13.5 (95% CI 13.2-13.9)
+legit escalated % [CZT - human challenge]: 11.7
+harm/10k [CZT - feedback]: 13.1 (95% CI 12.7-13.4)
+legit escalated % [CZT - feedback]: 16.4
+harm reduction vs baseline % [Awareness training]: 6
+harm reduction vs baseline % [Uniform callback]: 71
+harm reduction vs baseline % [CZT (full)]: 85
+harm reduction vs baseline % [CZT - provenance]: 85
+harm reduction vs baseline % [CZT - context]: 84
+harm reduction vs baseline % [CZT - authority]: 82
+harm reduction vs baseline % [CZT - channel]: 84
+harm reduction vs baseline % [CZT - friction]: 44
+harm reduction vs baseline % [CZT - human challenge]: 85
+harm reduction vs baseline % [CZT - feedback]: 85
+harm reduction vs baseline % [CZT (full)][A1]: 96
+harm reduction vs baseline % [Uniform callback][A1]: 78
+harm reduction vs baseline % [CZT (full)][A2]: 81
+harm reduction vs baseline % [Uniform callback][A2]: 77
+harm reduction vs baseline % [CZT (full)][A3]: 30
+harm reduction vs baseline % [Uniform callback][A3]: 17
+harm reduction vs baseline % [CZT (full)][A4]: 94
+harm reduction vs baseline % [Uniform callback][A4]: 78
+harm reduction vs baseline % [CZT (full)][A5]: 97
+harm reduction vs baseline % [Uniform callback][A5]: 77
+paired harm/10k difference [CZT - human challenge minus CZT (full)]: 0.035 (95% interval 0.017-0.053)
+break-even c_h/c_d [CZT (full) vs ZT baseline]: 18.0
+break-even c_h/c_d [CZT (full) vs Awareness training]: 19.4
+break-even c_h/c_d [CZT (full) vs Uniform callback]: 0.0
+break-even c_h/c_d [CZT (full) vs CZT - friction]: 34.5
+share of parameter space where CZT (full) has the lowest cost at c_h/c_d=5: 0.02
+share of parameter space where CZT (full) has the lowest cost at c_h/c_d=20: 0.43
+share of parameter space where CZT (full) has the lowest cost at c_h/c_d=100: 0.92
+share of parameter space where CZT (full) has the lowest cost at c_h/c_d=1000: 1.00
+harm reduction vs baseline across parameter space: median [IQR]: 84% [79-87%]
+share of parameter space where CZT (full) causes less harm than every comparator: 1.00
+PRCC (cost advantage, c_h/c_d=100) [attack_share]: +0.87
+PRCC (cost advantage, c_h/c_d=100) [callback_catch]: -0.80
+PRCC (cost advantage, c_h/c_d=100) [check_error]: -0.49
+PRCC (cost advantage, c_h/c_d=100) [share_high_consequence]: +0.34
+PRCC (cost advantage, c_h/c_d=100) [dual_catch]: +0.32

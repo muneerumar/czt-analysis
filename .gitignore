@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.aux
+*.log
+.DS_Store
+sim/results_quick/
